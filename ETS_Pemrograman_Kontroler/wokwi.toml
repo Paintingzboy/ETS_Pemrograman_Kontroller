@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "target/xtensa-esp32s3-espidf/debug/esp32s3_asmc_system"
+elf = "target/xtensa-esp32s3-espidf/debug/esp32s3_asmc_system"

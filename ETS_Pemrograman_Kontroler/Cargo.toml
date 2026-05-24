@@ -1,0 +1,11 @@
+[package]
+name = "esp32s3_asmc_system"
+version = "0.1.0"
+edition = "2021"
+authors = ["Shauqi Athallah Putra Rizary"]
+
+[dependencies]
+# Hal-HAL esensial untuk embedded development pada ESP32-S3
+esp-idf-sys = { version = "0.33", features = ["binstart"] }
+esp-idf-hal = "0.41"
+esp-idf-svc = "0.47"

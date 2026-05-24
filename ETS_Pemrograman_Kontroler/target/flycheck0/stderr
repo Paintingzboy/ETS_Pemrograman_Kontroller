@@ -1,0 +1,14 @@
+    Updating crates.io index
+error: failed to select a version for `embedded-hal`.
+    ... required by package `esp-idf-hal v0.41.1`
+    ... which satisfies dependency `esp-idf-hal = "^0.41"` of package `esp32s3_asmc_system v0.1.0 (D:\Programming\ETS_PemrogramanKontroler)`
+versions that meet the requirements `=1.0.0-alpha.10` are: 1.0.0-alpha.10
+
+all possible versions conflict with previously selected packages.
+
+  previously selected package `embedded-hal v1.0.0-rc.1`
+    ... which satisfies dependency `embedded-hal = "=1.0.0-rc.1"` of package `esp-idf-hal v0.42.5`
+    ... which satisfies dependency `esp-idf-hal = "^0.42.5"` of package `esp-idf-svc v0.47.3`
+    ... which satisfies dependency `esp-idf-svc = "^0.47"` of package `esp32s3_asmc_system v0.1.0 (D:\Programming\ETS_PemrogramanKontroler)`
+
+failed to select a version for `embedded-hal` which could resolve this conflict
